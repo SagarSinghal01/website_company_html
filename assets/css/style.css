@@ -52,7 +52,7 @@
    * spacing
    */
 
-  --section-padding: 100px;
+  --section-padding: 80px;
 
   /**
    * shadow
@@ -422,6 +422,10 @@ body.active { overflow: hidden; }
   min-height: 100%; */
 }
 
+.video-div{
+  height: 60%;
+}
+
 .content {
   position: fixed;
   bottom: 0;
@@ -429,16 +433,18 @@ body.active { overflow: hidden; }
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  height: 40%;
+  padding-top: 0px;
+  padding-bottom: 200px;
 }
 
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-block: 150px 140px; }
+.hero { padding-block: 60px 60px; }
 
-.hero-content { margin-block-end: 80px; }
+.hero-content { margin-block-end: 70px; }
 
 .hero-text {
   font-size: var(--fs-5);
